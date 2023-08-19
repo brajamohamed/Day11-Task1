@@ -1,0 +1,58 @@
+header {
+  background-color: rgb(86, 86, 86);
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#img {
+  width: 150px;
+  height: 150px;
+  border: 5px dotted rgb(249, 193, 38);
+  border-radius: 50%;
+}
+#name {
+  position: relative;
+  top: 190px;
+  border: 10px solid transparent;
+  border-radius: 8px;
+  background-color: rgb(249, 193, 38);
+  font-size: 2rem;
+  padding: 0px 20px;
+}
+#line1 {
+  background-color: rgb(238, 238, 238);
+  height: 25px;
+  width: 100%;
+}
+#line2 {
+  background-color: rgb(86, 86, 86);
+  height: 25px;
+  width: 100%;
+}
+#details {
+  background-color: rgb(238, 238, 238);
+  height: 25px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+/* ************header ends here************ */
+.icon {
+  display: flex;
+  align-items: center;
+}
+.icon > img {
+  width: 50px;
+  background-color: rgb(86, 86, 86);
+  border: 5px dotted rgb(249, 193, 38);
+  border-radius: 50px;
+}
+.date {
+  display: flex;
+  margin-top: 10px;
+}
+.duration {
+  margin-left: auto;
+}

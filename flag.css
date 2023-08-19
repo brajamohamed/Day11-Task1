@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: auto;
+}
+.saffron {
+  border: 1px solid blue;
+  border-bottom: transparent;
+  background-color: orangered;
+}
+.white {
+  grid-area: 2/1;
+}
+.chakra {
+  grid-area: 2/1;
+  justify-self: center;
+  align-self: center;
+}
+img {
+  width: 80px;
+}
+.box {
+  height: 100px;
+}
+.green {
+  background-color: green;
+  border: 1px solid blue;
+  border-top: transparent;
+}
